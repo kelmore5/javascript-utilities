@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "doc": "node ./node_modules/typedoc/bin/typedoc --theme ./node_modules/typedoc-clarity-theme/bin/ --out doc/ ./lib/"
+    "doc": "node ./node_modules/typedoc/bin/typedoc --theme ./node_modules/typedoc-clarity-theme/bin/ --out doc/ ./lib/web",
+    "doc-github": "./node_modules/typedoc/bin/typedoc --theme markdown --mdEngine github --out ./lib/markdown"
   },
   "author": "kelmore5",
   "license": "ISC",

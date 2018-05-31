@@ -13,26 +13,26 @@ object.
 
 To give a quick synopsis:
 
-- Arrays has things like splitting an array into subsets, filtering out null values, sorting date arrays,
+- [Arrays](doc/markdown/modules/_arrays_.md) has things like splitting an array into subsets, filtering out null values, sorting date arrays,
 and removing items via an input function.
 
-- Dictionaries is the largest library and contains functions including transforming an array into a blank
+- [Dictionaries]((doc/markdown/modules/_dictionaries_.md)) is the largest library and contains functions including transforming an array into a blank
 dictionary, doing name replacements on keys in the dictionary, grabbing all data with specified keys from 
 a json array, and removing a list of json keys.
 
-- Files only has one (at the moment) function to create a file if one does not exist and return the full path.
+- [Files](doc/markdown/modules/_files_.md) only has one (at the moment) function to create a file if one does not exist and return the full path.
 
-- Math also has one function to find the closest divosor between a number and a specific divisor.
+- [Math](doc/markdown/modules/_maths_.md) also has one function to find the closest divosor between a number and a specific divisor.
 
-- Promises has two functions: One to append a catch function to an array of promises and one to append
+- [Promises](doc/markdown/modules/_promises_.md) has two functions: One to append a catch function to an array of promises and one to append
 a next function to an array of promises to resolve true on complete.
 
-- Spreadsheets includes functions to split a CSV file into a smaller amount of rows, output JSON data to 
+- [Spreadsheets](doc/markdown/modules/_spreadsheets_.md) includes functions to split a CSV file into a smaller amount of rows, output JSON data to 
 Excel, and converting spreadsheet files to JSON.
 
-- Strings has things like fuzzy searches within a string array and transforming strings from keys to titles.
+- [Strings](doc/markdown/modules/_strings_.md) has things like fuzzy searches within a string array and transforming strings from keys to titles.
 
-- Utilities has a variety of functions, including removing HTML tags from an HTML page or element, creating
+- [Utilities](doc/markdown/modules/_utilities_.md) has a variety of functions, including removing HTML tags from an HTML page or element, creating
 a Levenshtein comparison, and initiating an HTTP request.
 
 
@@ -67,12 +67,10 @@ You can also generate documentation for the node module via
 * ["arrays"](doc/markdown/modules/_arrays_.md)
 * ["dictionaries"](doc/markdown/modules/_dictionaries_.md)
 * ["files"](doc/markdown/modules/_files_.md)
-* ["index"](doc/markdown/modules/_index_.md)
 * ["maths"](doc/markdown/modules/_maths_.md)
 * ["promises"](doc/markdown/modules/_promises_.md)
 * ["spreadsheets"](doc/markdown/modules/_spreadsheets_.md)
 * ["strings"](doc/markdown/modules/_strings_.md)
-* ["temp/temp"](doc/markdown/modules/_temp_temp_.md)
 * ["utilities"](doc/markdown/modules/_utilities_.md)
 
 
