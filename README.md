@@ -16,7 +16,7 @@ To give a quick synopsis:
 - [Arrays](doc/markdown/classes/_arrays_.arraytools.md) has things like splitting an array into subsets, filtering out null values, sorting date arrays,
 and removing items via an input function.
 
-- [Dictionaries]((doc/markdown/classes/_dictionaries_.dictionarytools.md)) is the largest library and contains functions including transforming an array into a blank
+- [Dictionaries](doc/markdown/classes/_dictionaries_.dictionarytools.md) is the largest library and contains functions including transforming an array into a blank
 dictionary, doing name replacements on keys in the dictionary, grabbing all data with specified keys from 
 a json array, and removing a list of json keys.
 
