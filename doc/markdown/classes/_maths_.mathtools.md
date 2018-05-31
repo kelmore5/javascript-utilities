@@ -22,7 +22,7 @@
 
 ▸ **findClosestDivisor**(number: *`number`*, divisor: *`number`*): `number`
 
-*Defined in maths.ts:4*
+*Defined in [maths.ts:4](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/maths.ts#L4)*
 
 **Parameters:**
 

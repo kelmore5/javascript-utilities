@@ -25,7 +25,7 @@
 
 **● csv**: *`boolean`*
 
-*Defined in spreadsheets.ts:22*
+*Defined in [spreadsheets.ts:22](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L22)*
 
 ___
 <a id="file_name"></a>
@@ -34,7 +34,7 @@ ___
 
 **● file_name**: *`string`*
 
-*Defined in spreadsheets.ts:19*
+*Defined in [spreadsheets.ts:19](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L19)*
 
 ___
 <a id="output_path"></a>
@@ -43,7 +43,7 @@ ___
 
 **● output_path**: *`string`*
 
-*Defined in spreadsheets.ts:20*
+*Defined in [spreadsheets.ts:20](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L20)*
 
 ___
 <a id="sheets"></a>
@@ -52,7 +52,7 @@ ___
 
 **● sheets**: *[ParsedSheet](_spreadsheets_.parsedsheet.md)[]*
 
-*Defined in spreadsheets.ts:21*
+*Defined in [spreadsheets.ts:21](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L21)*
 
 ___
 

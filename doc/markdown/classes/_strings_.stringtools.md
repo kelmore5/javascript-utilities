@@ -32,7 +32,7 @@ Javascript functions for strings
 
 ▸ **findMatch**(search_key: *`string`*, lookup: *`string`[]*):  `string` &#124; [StringMatchScore](../interfaces/_strings_.stringmatchscore.md)[]
 
-*Defined in strings.ts:139*
+*Defined in [strings.ts:139](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L139)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ ___
 
 ▸ **matchStrings**(array_a: *`string`[]*, array_b: *`string`[]*): [SimilarityScoreResponse](../interfaces/_strings_.similarityscoreresponse.md)
 
-*Defined in strings.ts:161*
+*Defined in [strings.ts:161](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L161)*
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **normalizeArrayInner**(array: *`string`[]*): `void`
 
-*Defined in strings.ts:45*
+*Defined in [strings.ts:45](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L45)*
 
 Normalizes all the strings within a string array
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **normalizeString**(string: *`string`*): `string`
 
-*Defined in strings.ts:33*
+*Defined in [strings.ts:33](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L33)*
 
 Primarily used for creating search keys. Takes a string and normalizes it, where normalize means changing the string to lower case, replacing all spaces with underscores, and removing any trailing whitespace
 
@@ -109,7 +109,7 @@ ___
 
 ▸ **onlyAscii**(string: *`string`*): `string`
 
-*Defined in strings.ts:120*
+*Defined in [strings.ts:120](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L120)*
 
 Removes all the non-ascii characters from a string and returns the string
 
@@ -131,7 +131,7 @@ ___
 
 ▸ **regularizeString**(string: *`string`*): `string`
 
-*Defined in strings.ts:61*
+*Defined in [strings.ts:61](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L61)*
 
 Primarily used to de-normalize a string. Regularizes a string, where regularize means replacing all the underscores with spaces and changing the string to propercase
 
@@ -153,7 +153,7 @@ ___
 
 ▸ **regularizeStringArray**(array: *`string`[]*): `string`[]
 
-*Defined in strings.ts:103*
+*Defined in [strings.ts:103](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L103)*
 
 Regularizes all the strings within an array
 
@@ -174,7 +174,7 @@ ___
 
 ▸ **replaceAll**(datum: *`string`*, search: *`Array`< `RegExp` &#124; `string`>*, replace: *`Array`< `string` &#124; `null`>*): `string`
 
-*Defined in strings.ts:124*
+*Defined in [strings.ts:124](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L124)*
 
 **Parameters:**
 
@@ -193,7 +193,7 @@ ___
 
 ▸ **toProperCase**(string: *`string`*): `string`
 
-*Defined in strings.ts:19*
+*Defined in [strings.ts:19](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L19)*
 
 Changes a string to proper case (aka Titles all string values between spaces)
 

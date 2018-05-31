@@ -29,7 +29,7 @@
 
 **● array**: *`number`*
 
-*Defined in dictionaries.ts:987*
+*Defined in [dictionaries.ts:987](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L987)*
 
 ___
 <a id="boolean"></a>
@@ -38,7 +38,7 @@ ___
 
 **● boolean**: *`number`*
 
-*Defined in dictionaries.ts:990*
+*Defined in [dictionaries.ts:990](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L990)*
 
 ___
 <a id="number"></a>
@@ -47,7 +47,7 @@ ___
 
 **● number**: *`number`*
 
-*Defined in dictionaries.ts:989*
+*Defined in [dictionaries.ts:989](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L989)*
 
 ___
 <a id="object"></a>
@@ -56,7 +56,7 @@ ___
 
 **● object**: *`number`*
 
-*Defined in dictionaries.ts:988*
+*Defined in [dictionaries.ts:988](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L988)*
 
 ___
 <a id="string"></a>
@@ -65,7 +65,7 @@ ___
 
 **● string**: *`number`*
 
-*Defined in dictionaries.ts:986*
+*Defined in [dictionaries.ts:986](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L986)*
 
 ___
 

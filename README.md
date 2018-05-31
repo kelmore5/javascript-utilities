@@ -60,6 +60,22 @@ You can also generate documentation for the node module via
 
     npm run doc
 
+## Documentation
+
+### External modules
+
+* ["arrays"](doc/markdown/modules/_arrays_.md)
+* ["dictionaries"](doc/markdown/modules/_dictionaries_.md)
+* ["files"](doc/markdown/modules/_files_.md)
+* ["index"](doc/markdown/modules/_index_.md)
+* ["maths"](doc/markdown/modules/_maths_.md)
+* ["promises"](doc/markdown/modules/_promises_.md)
+* ["spreadsheets"](doc/markdown/modules/_spreadsheets_.md)
+* ["strings"](doc/markdown/modules/_strings_.md)
+* ["temp/temp"](doc/markdown/modules/_temp_temp_.md)
+* ["utilities"](doc/markdown/modules/_utilities_.md)
+
+
 ## Extra Links
 
 - [Bookshelf.js](http://bookshelfjs.org/)

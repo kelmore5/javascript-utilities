@@ -32,7 +32,7 @@ General functions for javascript
 
 ▸ **calcDate**(date1: *`Date`*, date2: *`Date`*): `object`
 
-*Defined in utilities.ts:31*
+*Defined in [utilities.ts:31](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L31)*
 
 Calculates the difference in years, months, and days between two given dates
 
@@ -54,7 +54,7 @@ ___
 
 ▸ **createLevCompare**(compare_array: *`string`[]*): `any`
 
-*Defined in utilities.ts:106*
+*Defined in [utilities.ts:106](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L106)*
 
 **Parameters:**
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **delay**(milliseconds: *`number`*): `Promise`<`void`>
 
-*Defined in utilities.ts:95*
+*Defined in [utilities.ts:95](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L95)*
 
 **Parameters:**
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **httpsRequest**T(props: * `string` &#124; `https.RequestOptions`*): `Promise`<`T`>
 
-*Defined in utilities.ts:118*
+*Defined in [utilities.ts:118](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L118)*
 
 **Type parameters:**
 
@@ -108,7 +108,7 @@ ___
 
 ▸ **logPromise**(promise: *`Promise`<`any`>*): `void`
 
-*Defined in utilities.ts:46*
+*Defined in [utilities.ts:46](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L46)*
 
 Mostly used for debugging/testing. Runs a promise and logs the result or error
 
@@ -127,7 +127,7 @@ ___
 
 ▸ **output**(output: *`any`*, substring?: *`number`*): `void`
 
-*Defined in utilities.ts:19*
+*Defined in [utilities.ts:19](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L19)*
 
 **Parameters:**
 
@@ -145,7 +145,7 @@ ___
 
 ▸ **removeHTMLTags**(html: *`string`*): `string`
 
-*Defined in utilities.ts:55*
+*Defined in [utilities.ts:55](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L55)*
 
 **Parameters:**
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **runScript**(promise: *`Promise`<`any`>*, exit_after?: *`boolean`*, message_text?: *`string`*): `void`
 
-*Defined in utilities.ts:101*
+*Defined in [utilities.ts:101](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L101)*
 
 **Parameters:**
 
@@ -181,7 +181,7 @@ ___
 
 ▸ **stringify**(datum: *`any`*): `string`
 
-*Defined in utilities.ts:17*
+*Defined in [utilities.ts:17](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L17)*
 
 **Parameters:**
 

@@ -75,7 +75,7 @@ Tools for javascript dictionary objects
 
 **● reduce**: *[reduceJson](_dictionaries_.dictionarytools.md#reducejson)* =  DictionaryTools.reduceJson
 
-*Defined in dictionaries.ts:16*
+*Defined in [dictionaries.ts:16](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L16)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **addObjectToJsonArray**(json_array: *`any`[]*, json: *`any`*): `any`[]
 
-*Defined in dictionaries.ts:383*
+*Defined in [dictionaries.ts:383](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L383)*
 
 Adds an object to all json objects within a given json array
 
@@ -107,7 +107,7 @@ ___
 
 ▸ **checkIfNull**(json: *`any`*, keys: *`string`[]*): `boolean`
 
-*Defined in dictionaries.ts:771*
+*Defined in [dictionaries.ts:771](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L771)*
 
 **Parameters:**
 
@@ -125,7 +125,7 @@ ___
 
 ▸ **combineJsonAndModels**(keys: *`string`[]*, jsons?: *`any`[]*, models?: *`Model`<`any`>[]*): `any`
 
-*Defined in dictionaries.ts:447*
+*Defined in [dictionaries.ts:447](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L447)*
 
 **Parameters:**
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **convertBooleanKeys**(json_array: *`any`[]*, keys: *`string`[]*): `any`[]
 
-*Defined in dictionaries.ts:285*
+*Defined in [dictionaries.ts:285](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L285)*
 
 **Parameters:**
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **convertStatsToInterface**(stats: *[JSONStats](../interfaces/_dictionaries_.jsonstats.md)*, name?: *`string`*): `string`
 
-*Defined in dictionaries.ts:799*
+*Defined in [dictionaries.ts:799](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L799)*
 
 **Parameters:**
 
@@ -180,7 +180,7 @@ ___
 
 ▸ **convertStatsToInterfaceHelper**(stats: *[JSONStats](../interfaces/_dictionaries_.jsonstats.md)*, name: *`string`*, outputs?: *`string`[]*): `string`[]
 
-*Defined in dictionaries.ts:805*
+*Defined in [dictionaries.ts:805](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L805)*
 
 **Parameters:**
 
@@ -199,7 +199,7 @@ ___
 
 ▸ **convertStringArrayToBlankJson**(array: *`string`[]*): `any`
 
-*Defined in dictionaries.ts:258*
+*Defined in [dictionaries.ts:258](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L258)*
 
 Takes a string array and creates a blank json object using the array data as keys
 
@@ -219,7 +219,7 @@ ___
 
 ▸ **countKeysWithValues**(json: *`any`*): `number`
 
-*Defined in dictionaries.ts:758*
+*Defined in [dictionaries.ts:758](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L758)*
 
 **Parameters:**
 
@@ -236,7 +236,7 @@ ___
 
 ▸ **createLookup**T(json_array: *`T`[]*, lookup_key: *`string`*, value_keys?: *`string`[]*, output?: *[Lookup](../interfaces/_dictionaries_.lookup.md)<`T`>*): [Lookup](../interfaces/_dictionaries_.lookup.md)<`T`>
 
-*Defined in dictionaries.ts:573*
+*Defined in [dictionaries.ts:573](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L573)*
 
 **Type parameters:**
 
@@ -259,7 +259,7 @@ ___
 
 ▸ **createLookupArray**(json_array: *`any`[]*, lookup_key: *`string`*, value_keys?: *`string`[]*): [LookupArray](../interfaces/_dictionaries_.lookuparray.md)
 
-*Defined in dictionaries.ts:592*
+*Defined in [dictionaries.ts:592](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L592)*
 
 **Parameters:**
 
@@ -278,7 +278,7 @@ ___
 
 ▸ **flattenAtRoot**(json: *`any`*): `any`[]
 
-*Defined in dictionaries.ts:611*
+*Defined in [dictionaries.ts:611](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L611)*
 
 **Parameters:**
 
@@ -295,7 +295,7 @@ ___
 
 ▸ **getAllKeys**(json_array: *`any`[]*): `string`[]
 
-*Defined in dictionaries.ts:630*
+*Defined in [dictionaries.ts:630](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L630)*
 
 **Parameters:**
 
@@ -312,7 +312,7 @@ ___
 
 ▸ **getJsonStats**(json_array: *`any`[]*, add_json_string?: *`boolean`*, output?: *[JSONStats](../interfaces/_dictionaries_.jsonstats.md)*): [JSONStats](../interfaces/_dictionaries_.jsonstats.md)
 
-*Defined in dictionaries.ts:638*
+*Defined in [dictionaries.ts:638](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L638)*
 
 **Parameters:**
 
@@ -331,7 +331,7 @@ ___
 
 ▸ **getVariableStat**(stats: *[JSONStatChecks](../interfaces/_dictionaries_.jsonstatchecks.md)*): [JSONStat](../interfaces/_dictionaries_.jsonstat.md)
 
-*Defined in dictionaries.ts:855*
+*Defined in [dictionaries.ts:855](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L855)*
 
 **Parameters:**
 
@@ -348,7 +348,7 @@ ___
 
 ▸ **getVariableStats**(datum: *`any`*): [JSONStatCheck](../interfaces/_dictionaries_.jsonstatcheck.md)
 
-*Defined in dictionaries.ts:683*
+*Defined in [dictionaries.ts:683](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L683)*
 
 **Parameters:**
 
@@ -365,7 +365,7 @@ ___
 
 ▸ **grabAllDataByKey**(json_array: *`any`[]*, key: *`string`*): `any`[]
 
-*Defined in dictionaries.ts:93*
+*Defined in [dictionaries.ts:93](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L93)*
 
 Grabs all the data values within an array of json objects with given key
 
@@ -386,7 +386,7 @@ ___
 
 ▸ **grabAllDataByKeyUnique**(json_array: *`any`[]*, key: *`string`*): `any`[]
 
-*Defined in dictionaries.ts:104*
+*Defined in [dictionaries.ts:104](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L104)*
 
 **Parameters:**
 
@@ -404,7 +404,7 @@ ___
 
 ▸ **grabAllDataByKeysStrict**(json_array: *`any`[]*, keys: *`string`[]*): `any`[]
 
-*Defined in dictionaries.ts:143*
+*Defined in [dictionaries.ts:143](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L143)*
 
 Grabs all the json objects within an array of objects with the given keys.
 
@@ -427,7 +427,7 @@ ___
 
 ▸ **grabAllDataWithKeyValue**(json_array: *`any`[]*, key: *`string`*, value: *`string`*): `any`[]
 
-*Defined in dictionaries.ts:123*
+*Defined in [dictionaries.ts:123](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L123)*
 
 Grabs all the json objects with the given key plus value
 
@@ -449,7 +449,7 @@ ___
 
 ▸ **grabAllKeysFromArray**(json_array: *`any`[]*): `any`[]
 
-*Defined in dictionaries.ts:168*
+*Defined in [dictionaries.ts:168](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L168)*
 
 Grabs all the keys from the objects within an array of json objects (no duplicates)
 
@@ -469,7 +469,7 @@ ___
 
 ▸ **isEmpty**(json: *`any`*): `boolean`
 
-*Defined in dictionaries.ts:182*
+*Defined in [dictionaries.ts:182](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L182)*
 
 Checks if a json object is empty
 
@@ -489,7 +489,7 @@ ___
 
 ▸ **mapJsonArray**(json_array: *`any`[]*): `any`
 
-*Defined in dictionaries.ts:439*
+*Defined in [dictionaries.ts:439](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L439)*
 
 This will take an array of json objects, find the map of each object, and return all the maps merged.
 
@@ -518,7 +518,7 @@ ___
 
 ▸ **mapJsonObject**(json: *`any`*): `any`
 
-*Defined in dictionaries.ts:400*
+*Defined in [dictionaries.ts:400](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L400)*
 
 This will take in a json object and return all the keys from the object. This does a deep search, so will include objects within objects and arrays.
 
@@ -540,7 +540,7 @@ ___
 
 ▸ **mergeJSONStats**(stat_a: *[JSONStats](../interfaces/_dictionaries_.jsonstats.md)*, stat_b: *[JSONStats](../interfaces/_dictionaries_.jsonstats.md)*): `void`
 
-*Defined in dictionaries.ts:957*
+*Defined in [dictionaries.ts:957](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L957)*
 
 **Parameters:**
 
@@ -558,7 +558,7 @@ ___
 
 ▸ **mergeWhereEmpty**(dest: *`any`*, src: *`any`*): `any`
 
-*Defined in dictionaries.ts:735*
+*Defined in [dictionaries.ts:735](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L735)*
 
 **Parameters:**
 
@@ -576,7 +576,7 @@ ___
 
 ▸ **normalizeJsonArrayKeys**(json_array: *`any`[]*): `void`
 
-*Defined in dictionaries.ts:193*
+*Defined in [dictionaries.ts:193](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L193)*
 
 Normalizes the keys within json objects in an array of json objects.
 
@@ -597,7 +597,7 @@ ___
 
 ▸ **normalizeJsonKeys**(json: *`any`*): `void`
 
-*Defined in dictionaries.ts:206*
+*Defined in [dictionaries.ts:206](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L206)*
 
 Normalizes the keys within a json object
 
@@ -618,7 +618,7 @@ ___
 
 ▸ **output**(json?: *`any`*, chars?: *`number`*): `void`
 
-*Defined in dictionaries.ts:554*
+*Defined in [dictionaries.ts:554](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L554)*
 
 **Parameters:**
 
@@ -636,7 +636,7 @@ ___
 
 ▸ **override**(json_a: *`any`*, json_b: *`any`*, keys?: *`string`[]*): `any`
 
-*Defined in dictionaries.ts:745*
+*Defined in [dictionaries.ts:745](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L745)*
 
 **Parameters:**
 
@@ -655,7 +655,7 @@ ___
 
 ▸ **reduceJson**(json: *`any`*, keys: *`string`[]*): `any`
 
-*Defined in dictionaries.ts:558*
+*Defined in [dictionaries.ts:558](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L558)*
 
 **Parameters:**
 
@@ -673,7 +673,7 @@ ___
 
 ▸ **reduceList**(json_array: *`any`[]*, keys: *`string`[]*): `any`
 
-*Defined in dictionaries.ts:566*
+*Defined in [dictionaries.ts:566](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L566)*
 
 **Parameters:**
 
@@ -691,7 +691,7 @@ ___
 
 ▸ **regroupJsonArrayByKey**(json_array: *`any`[]*, key: *`string`*, key2?: *`string`*): `any`[]
 
-*Defined in dictionaries.ts:35*
+*Defined in [dictionaries.ts:35](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L35)*
 
 Takes an array of json objects and creates a dictionary tree from it based on the given keys.
 
@@ -721,7 +721,7 @@ ___
 
 ▸ **regroupJsonArrayByKeyWithDupes**(json_array: *`any`[]*, key: *`string`*): `any`[]
 
-*Defined in dictionaries.ts:66*
+*Defined in [dictionaries.ts:66](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L66)*
 
 Takes an array of json objects and creates a dictionary tree from it based on the given key, keeping any duplicate values it finds in an array
 
@@ -744,7 +744,7 @@ ___
 
 ▸ **regroupJsonArraysByKey**T(json_arrays: *`T`[][]*, regroup_names: *`string`[]*, regroup_key: *`string`*): `any`
 
-*Defined in dictionaries.ts:504*
+*Defined in [dictionaries.ts:504](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L504)*
 
 Takes an array of json objects and regroups each json in the array by the given grouping key and creates a new json output with the given regrouping names.
 
@@ -787,7 +787,7 @@ ___
 
 ▸ **regularizeJsonArrayKeys**(json_array: *`any`[]*, keys_to_skip?: *`string`[]*): `void`
 
-*Defined in dictionaries.ts:225*
+*Defined in [dictionaries.ts:225](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L225)*
 
 Regularizes the keys with the json objects of an array of json objects
 
@@ -809,7 +809,7 @@ ___
 
 ▸ **regularizeJsonKeys**(json: *`any`*, keys_to_skip?: *`string`[]*): `void`
 
-*Defined in dictionaries.ts:239*
+*Defined in [dictionaries.ts:239](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L239)*
 
 Regularizes the keys within the given json object
 
@@ -831,7 +831,7 @@ ___
 
 ▸ **removeKeys**(json: *`any`*, keys: *`string`[]*): `any`
 
-*Defined in dictionaries.ts:730*
+*Defined in [dictionaries.ts:730](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L730)*
 
 **Parameters:**
 
@@ -849,7 +849,7 @@ ___
 
 ▸ **removeKeysArray**(json_array: *`any`[]*, keys: *`string`[]*): `any`[]
 
-*Defined in dictionaries.ts:753*
+*Defined in [dictionaries.ts:753](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L753)*
 
 **Parameters:**
 
@@ -867,7 +867,7 @@ ___
 
 ▸ **removeWhereKeysNull**T(jsons: *`T`[]*, keys: *`string`[]*): `T`[]
 
-*Defined in dictionaries.ts:781*
+*Defined in [dictionaries.ts:781](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L781)*
 
 **Type parameters:**
 
@@ -888,7 +888,7 @@ ___
 
 ▸ **removeWhereNull**T(json: *`T`*, all_empty_values?: *`boolean`*): `T`
 
-*Defined in dictionaries.ts:786*
+*Defined in [dictionaries.ts:786](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L786)*
 
 **Type parameters:**
 
@@ -909,7 +909,7 @@ ___
 
 ▸ **removeWhereNulls**T(jsons: *`T`[]*, all_empty_values?: *`boolean`*): `T`[]
 
-*Defined in dictionaries.ts:767*
+*Defined in [dictionaries.ts:767](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L767)*
 
 **Type parameters:**
 
@@ -930,7 +930,7 @@ ___
 
 ▸ **replace**(json_a: *`any`*, json_b: *`any`*, keys?: *`string`[]*): `any`
 
-*Defined in dictionaries.ts:615*
+*Defined in [dictionaries.ts:615](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L615)*
 
 **Parameters:**
 
@@ -949,7 +949,7 @@ ___
 
 ▸ **replaceAllJsonKeysList**(json_array: *`any`[]*, keys_to_grab: *`string`[]*, new_key_names: *`string`[]*): `any`[]
 
-*Defined in dictionaries.ts:277*
+*Defined in [dictionaries.ts:277](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L277)*
 
 Finds the given json keys (keys\_to\_grab) within each json object in an array of json objects (json\_array) and replaces them with new key names (new\_key_names)
 
@@ -971,7 +971,7 @@ ___
 
 ▸ **replaceJsonKeys**(json: *`any`*, keys_to_grab: *`string`[]*, new_key_names: *`string`[]*): `any`[]
 
-*Defined in dictionaries.ts:359*
+*Defined in [dictionaries.ts:359](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L359)*
 
 Replaces the given keys to grab with new key names inside the given json object
 
@@ -993,7 +993,7 @@ ___
 
 ▸ **replaceKeyValues**(dest: * `any` &#124; `any`[]*, src: * `any` &#124; `any`[]*, dest_keys: *`string`[]*, src_keys: *`string`[]*, only_null?: *`boolean`*, with_count?: *`boolean`*):  `number` &#124; `any`
 
-*Defined in dictionaries.ts:302*
+*Defined in [dictionaries.ts:302](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L302)*
 
 **Parameters:**
 
@@ -1015,7 +1015,7 @@ ___
 
 ▸ **statCheckHelper**(json_array: *`any`[]*): [JSONStatsCheck](../interfaces/_dictionaries_.jsonstatscheck.md)
 
-*Defined in dictionaries.ts:897*
+*Defined in [dictionaries.ts:897](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L897)*
 
 **Parameters:**
 
@@ -1032,7 +1032,7 @@ ___
 
 ▸ **stringify**(json?: *`any`*, chars?: *`number`*): `string`
 
-*Defined in dictionaries.ts:546*
+*Defined in [dictionaries.ts:546](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L546)*
 
 **Parameters:**
 
@@ -1050,7 +1050,7 @@ ___
 
 ▸ **stringifyAtRoot**(json_array: *`any`[]*, ignore_num?: *`boolean`*): `any`[]
 
-*Defined in dictionaries.ts:529*
+*Defined in [dictionaries.ts:529](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L529)*
 
 **Parameters:**
 

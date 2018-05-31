@@ -24,7 +24,7 @@
 
 **● lookup_key**: *`string`*
 
-*Defined in strings.ts:224*
+*Defined in [strings.ts:224](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L224)*
 
 ___
 <a id="score"></a>
@@ -33,7 +33,7 @@ ___
 
 **● score**: *`number`*
 
-*Defined in strings.ts:225*
+*Defined in [strings.ts:225](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L225)*
 
 ___
 <a id="search_key"></a>
@@ -42,7 +42,7 @@ ___
 
 **● search_key**: *`string`*
 
-*Defined in strings.ts:223*
+*Defined in [strings.ts:223](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L223)*
 
 ___
 

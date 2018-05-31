@@ -24,7 +24,7 @@ Utility functions for files
 
 ▸ **createReturnFullPath**(cwd: *`string`*, relative_path: *`string`*): `string`
 
-*Defined in files.ts:19*
+*Defined in [files.ts:19](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/files.ts#L19)*
 
 Used for directory testing/creation. Takes the current working directory (cwd) and a relative path to a directory, and creates the directory if it does not exist
 

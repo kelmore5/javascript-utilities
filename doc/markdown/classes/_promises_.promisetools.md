@@ -23,7 +23,7 @@
 
 ▸ **logOnCatch**T(promises: *`T`*): `T`
 
-*Defined in promises.ts:3*
+*Defined in [promises.ts:3](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/promises.ts#L3)*
 
 **Type parameters:**
 
@@ -44,7 +44,7 @@ ___
 
 ▸ **resTrue**(promise: *`Promise`<`any`>*, callback?: *`Function`*): `Promise`<`any`>
 
-*Defined in promises.ts:11*
+*Defined in [promises.ts:11](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/promises.ts#L11)*
 
 **Parameters:**
 

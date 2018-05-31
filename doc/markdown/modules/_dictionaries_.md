@@ -35,7 +35,7 @@
 **ΤJSONStatType**: * "int" &#124; "double" &#124; "string" &#124; "boolean" &#124; "date" &#124; "object" &#124; "array"
 *
 
-*Defined in dictionaries.ts:1015*
+*Defined in [dictionaries.ts:1015](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L1015)*
 
 ___
 <a id="objecttype"></a>
@@ -45,7 +45,7 @@ ___
 **ΤObjectType**: * "string" &#124; "array" &#124; "object" &#124; "number" &#124; "boolean"
 *
 
-*Defined in dictionaries.ts:983*
+*Defined in [dictionaries.ts:983](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L983)*
 
 ___
 

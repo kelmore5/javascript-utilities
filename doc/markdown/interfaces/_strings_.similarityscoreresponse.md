@@ -24,7 +24,7 @@
 
 **● matched**: *[SimilarityScore](_strings_.similarityscore.md)[]*
 
-*Defined in strings.ts:211*
+*Defined in [strings.ts:211](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L211)*
 
 ___
 <a id="no_match"></a>
@@ -33,7 +33,7 @@ ___
 
 **● no_match**: *[SimilarityScore](_strings_.similarityscore.md)[]*
 
-*Defined in strings.ts:213*
+*Defined in [strings.ts:213](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L213)*
 
 ___
 <a id="scored"></a>
@@ -42,7 +42,7 @@ ___
 
 **● scored**: *[SimilarityScore](_strings_.similarityscore.md)[]*
 
-*Defined in strings.ts:212*
+*Defined in [strings.ts:212](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L212)*
 
 ___
 

@@ -26,7 +26,7 @@
 
 **● inner_sizes**: *[JSONTypeLookup](_dictionaries_.jsontypelookup.md)*
 
-*Defined in dictionaries.ts:975*
+*Defined in [dictionaries.ts:975](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L975)*
 
 ___
 <a id="inner_types"></a>
@@ -35,7 +35,7 @@ ___
 
 **● inner_types**: *[JSONTypeLookup](_dictionaries_.jsontypelookup.md)*
 
-*Defined in dictionaries.ts:974*
+*Defined in [dictionaries.ts:974](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L974)*
 
 ___
 <a id="object_types"></a>
@@ -44,7 +44,7 @@ ___
 
 **● object_types**: *[JSONStats](_dictionaries_.jsonstats.md)*
 
-*Defined in dictionaries.ts:976*
+*Defined in [dictionaries.ts:976](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L976)*
 
 ___
 <a id="size"></a>
@@ -53,7 +53,7 @@ ___
 
 **● size**: *`number`*
 
-*Defined in dictionaries.ts:973*
+*Defined in [dictionaries.ts:973](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L973)*
 
 ___
 <a id="type"></a>
@@ -62,7 +62,7 @@ ___
 
 **● type**: *[ObjectType](../modules/_dictionaries_.md#objecttype)*
 
-*Defined in dictionaries.ts:972*
+*Defined in [dictionaries.ts:972](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L972)*
 
 ___
 

@@ -24,7 +24,7 @@
 
 **● headers**: *`string`[]*
 
-*Defined in spreadsheets.ts:14*
+*Defined in [spreadsheets.ts:14](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L14)*
 
 ___
 <a id="rows"></a>
@@ -33,7 +33,7 @@ ___
 
 **● rows**: *`any`[]*
 
-*Defined in spreadsheets.ts:15*
+*Defined in [spreadsheets.ts:15](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L15)*
 
 ___
 <a id="sheet"></a>
@@ -42,7 +42,7 @@ ___
 
 **● sheet**: *`string`*
 
-*Defined in spreadsheets.ts:13*
+*Defined in [spreadsheets.ts:13](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L13)*
 
 ___
 

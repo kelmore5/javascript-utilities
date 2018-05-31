@@ -22,7 +22,7 @@
 
 **● entities**: *`AllHtmlEntities`* =  new AllHtmlEntities()
 
-*Defined in utilities.ts:10*
+*Defined in [utilities.ts:10](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/utilities.ts#L10)*
 
 ___
 

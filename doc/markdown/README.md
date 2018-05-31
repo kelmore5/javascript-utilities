@@ -12,7 +12,19 @@ To give a quick synopsis:
 
 *   Arrays has things like splitting an array into subsets, filtering out null values, sorting date arrays, and removing items via an input function.
     
-*   Dictionaries is the largest library and contains functions including transforming an array into a blank dictionary, doing name replacements on key
+*   Dictionaries is the largest library and contains functions including transforming an array into a blank dictionary, doing name replacements on keys in the dictionary, grabbing all data with specified keys from a json array, and removing a list of json keys.
+    
+*   Files only has one (at the moment) function to create a file if one does not exist and return the full path.
+    
+*   Math also has one function to find the closest divosor between a number and a specific divisor.
+    
+*   Promises has two functions: One to append a catch function to an array of promises and one to append a next function to an array of promises to resolve true on complete.
+    
+*   Spreadsheets includes functions to split a CSV file into a smaller amount of rows, output JSON data to Excel, and converting spreadsheet files to JSON.
+    
+*   Strings has things like fuzzy searches within a string array and transforming strings from keys to titles.
+    
+*   Utilities has a variety of functions, including removing HTML tags from an HTML page or element, creating a Levenshtein comparison, and initiating an HTTP request.
     
 
 This has been checked and was working on **May 1, 2018**, but I have no plans to maintain the project.
@@ -20,93 +32,40 @@ This has been checked and was working on **May 1, 2018**, but I have no plans to
 Install
 -------
 
-### Dependencies
-
-*   python 3.6
-*   pyvirtualdisplay
-*   xlrd
-*   xlwt
-*   [selenium](http://selenium-python.readthedocs.io/installation.html)
-*   [Xvfb](https://www.x.org/archive/X11R7.6/doc/man/man1/Xvfb.1.xhtml) (May not be necessary - check install of pyvirtualdisplay)
-*   [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
-*   [peewee](https://github.com/coleifer/peewee)
-
-*pyvirtualdisplay and Xvfb are used to create the headless display, selenium and chromedriver are used for the actual browsing
-
-### Run
-
 First, download the repo
 
 ```
-git clone --recurse-submodules -j8 https://github.com/kelmore5/ebay-keyword-crawler
+git clone --recurse-submodules -j8 https://github.com/kelmore5/javascript-utilities
 ```
 
-Once downloaded and dependencies are installed, you can run it via
+Then run install to download all npm modules
 
 ```
-python3 lib/EbayParser.py
+npm install
 ```
 
-You can change the boards being parsed and the keywords to search for by modifying EbayParser.py (top of file, line 40)
+Use
+---
 
-```python
-# Set keywords to search for here
-keywords = [
-    ["good deal", "great deal", "fair deal", "best deal", "good price", "great price", "fair price", "best price",
-    "good customer", "great customer", "repeat customer", "fair", "honest", "reasonable"],
-    ["scam", "scams", "scammed", "scamming", "scammer", "scammers", "fraud", "frauds", "defrauded", "fraudster",
-    "fraudsters", "con", "cons", "conned", "conning", "con artist", "con artists", "trick", "tricks", "tricked",
-    "tricking", "trickster", "tricksters", "swindle", "swindles", "swindled", "swindler", "swindlers"]
-]
+Once downloaded and dependencies are installed, you can import tools like so
 
-# Set board names and links to be downloaded here
-board_names = ['Bidding and Buying', 'Selling']
+```
+import {arrays} from 'lib/arrays';
+import {files} from 'lib/files';
+...
+```
 
-board_urls = ["http://community.ebay.com/t5/Bidding-Buying/bd-p/bidding-buying-db",
-                "http://community.ebay.com/t5/Selling/bd-p/selling-db"]
+You can also generate documentation for the node module via
+
+```
+npm run doc
 ```
 
 Extra Links
 -----------
 
-*   [Selenium](https://www.seleniumhq.org/)
-*   [Selenium Python Docs](http://selenium-python.readthedocs.io/)
-*   [Peewee Documentation](http://docs.peewee-orm.com/en/latest/)
-
-Proof of Concept
-----------------
-
-You can see a demo from a slideshow I've created [here](https://docs.google.com/presentation/d/1VlSL0dZrbhQeY3bIFUGEmSkFARycCc31zmQlNqx_7BY/edit?usp=sharing) or you can look at the sample output from [this](https://github.com/kelmore5/ebay-keyword-crawler/raw/master/demo/output_demo.xlsx) Excel sheet, screenshotted below.
-
-Either way here are some pictures to give a proof of concept, with even more residing in the [demo](https://github.com/kelmore5/ebay-keyword-crawler/tree/master/demo) folder above
-
-Here's a pic of the forum from ebay before download
-
-![Ebay Bidding and Buying Forum](/demo/pictures/ebay_bidding_and_buying.png "Ebay Bidding and Buying Forum")
-
-and the resulting database in SQL
-
-![Posts SQL Database](/demo/pictures/posts_database.png "Posts SQL Database")
-
-Some examples of the messages being parsed from ebay
-
-![Ebay Messages Example 1](/demo/pictures/ebay_messages_1.png "Ebay Messages Example")
-
-![Ebay Messages Example 2](/demo/pictures/ebay_messages_2.png "Ebay Messages Example 2")
-
-Both messages now in database, ready to be searched through for keywords
-
-![Messages SQL Database](/demo/pictures/messages_database.png "Messages SQL Database")
-
-The keywords database
-
-![Keywords SQL Database](/demo/pictures/keywords_database.png "Keyboards SQL Database")
-
-And finally the resulting output in Excel
-
-![Excel Output - Main](/demo/pictures/excel_output_main.png "Excel Output - Main")
-
-![Excel Output - Simple Stats](/demo/pictures/excel_output_keywords.png "Excel Output - Simple Stats")
+*   [Bookshelf.js](http://bookshelfjs.org/)
+*   [ExcelJS](https://github.com/guyonroche/exceljs)
 
 ## Index
 

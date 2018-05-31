@@ -26,7 +26,7 @@
 
 **● inner_size**: *`number`*
 
-*Defined in dictionaries.ts:1011*
+*Defined in [dictionaries.ts:1011](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L1011)*
 
 ___
 <a id="inner_type"></a>
@@ -35,7 +35,7 @@ ___
 
 **● inner_type**: *[JSONStatType](../modules/_dictionaries_.md#jsonstattype)*
 
-*Defined in dictionaries.ts:1010*
+*Defined in [dictionaries.ts:1010](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L1010)*
 
 ___
 <a id="object_types"></a>
@@ -44,7 +44,7 @@ ___
 
 **● object_types**: *[JSONStats](_dictionaries_.jsonstats.md)*
 
-*Defined in dictionaries.ts:1012*
+*Defined in [dictionaries.ts:1012](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L1012)*
 
 ___
 <a id="size"></a>
@@ -53,7 +53,7 @@ ___
 
 **● size**: *`number`*
 
-*Defined in dictionaries.ts:1009*
+*Defined in [dictionaries.ts:1009](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L1009)*
 
 ___
 <a id="type"></a>
@@ -62,7 +62,7 @@ ___
 
 **● type**: *[JSONStatType](../modules/_dictionaries_.md#jsonstattype)*
 
-*Defined in dictionaries.ts:1008*
+*Defined in [dictionaries.ts:1008](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/dictionaries.ts#L1008)*
 
 ___
 

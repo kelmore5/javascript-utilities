@@ -33,7 +33,7 @@ Utility functions for javascript arrays
 
 ▸ **addArrayToSet**(set: *`Set`<`any`>*, array: *`any`[]*): `void`
 
-*Defined in arrays.ts:17*
+*Defined in [arrays.ts:17](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L17)*
 
 Adds an array to a set
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **chunkArray**T(array: *`T`[]*, step: *`number`*): `Array`<`T`[]>
 
-*Defined in arrays.ts:38*
+*Defined in [arrays.ts:38](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L38)*
 
 **Type parameters:**
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **crossArray**T(array1: *`T`[]*, array2: *`T`[]*): `T`[]
 
-*Defined in arrays.ts:28*
+*Defined in [arrays.ts:28](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L28)*
 
 Creates the cross of two arrays
 
@@ -98,7 +98,7 @@ ___
 
 ▸ **filterNull**T(array: *`T`[]*): `T`[]
 
-*Defined in arrays.ts:89*
+*Defined in [arrays.ts:89](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L89)*
 
 **Type parameters:**
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **getStats**(array: *`any`[]*): [JSONStatChecks](../interfaces/_dictionaries_.jsonstatchecks.md)
 
-*Defined in arrays.ts:65*
+*Defined in [arrays.ts:65](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L65)*
 
 **Parameters:**
 
@@ -135,7 +135,7 @@ ___
 
 ▸ **getUniqueValueIndexes**T(array: *`T`[]*): `number`[][]
 
-*Defined in arrays.ts:104*
+*Defined in [arrays.ts:104](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L104)*
 
 **Type parameters:**
 
@@ -155,7 +155,7 @@ ___
 
 ▸ **mergeInner**T(dest: *`T`[]*, src: *`T`[]*): `T`[]
 
-*Defined in arrays.ts:46*
+*Defined in [arrays.ts:46](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L46)*
 
 **Type parameters:**
 
@@ -176,7 +176,7 @@ ___
 
 ▸ **removeInner**T(array: *`T`[]*, checkFunction: *[RemoveFunction](../modules/_arrays_.md#removefunction)<`T`>*): `T`[]
 
-*Defined in arrays.ts:51*
+*Defined in [arrays.ts:51](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L51)*
 
 **Type parameters:**
 
@@ -197,7 +197,7 @@ ___
 
 ▸ **sortDates**(a: *`Date`*, b: *`Date`*): `number`
 
-*Defined in arrays.ts:93*
+*Defined in [arrays.ts:93](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L93)*
 
 **Parameters:**
 
@@ -215,7 +215,7 @@ ___
 
 ▸ **unique**(array: *`Array`< `string` &#124; `number`>*): `any`[]
 
-*Defined in arrays.ts:83*
+*Defined in [arrays.ts:83](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L83)*
 
 **Parameters:**
 

@@ -22,7 +22,7 @@
 
 **ΤRemoveFunction**: *`function`*
 
-*Defined in arrays.ts:127*
+*Defined in [arrays.ts:127](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/arrays.ts#L127)*
 
 #### Type declaration
 ▸(result: *`T`*, idx?: *`number`*): `boolean`

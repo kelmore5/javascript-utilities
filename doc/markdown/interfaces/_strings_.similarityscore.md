@@ -24,7 +24,7 @@
 
 **● key_a**: *`string`*
 
-*Defined in strings.ts:217*
+*Defined in [strings.ts:217](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L217)*
 
 ___
 <a id="key_b"></a>
@@ -33,7 +33,7 @@ ___
 
 **● key_b**: *`string`*
 
-*Defined in strings.ts:218*
+*Defined in [strings.ts:218](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L218)*
 
 ___
 <a id="score"></a>
@@ -42,7 +42,7 @@ ___
 
 **● score**: *`number`*
 
-*Defined in strings.ts:219*
+*Defined in [strings.ts:219](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/strings.ts#L219)*
 
 ___
 

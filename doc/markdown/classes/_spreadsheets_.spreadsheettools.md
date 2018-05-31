@@ -30,7 +30,7 @@ Javascript functions for handling spreadsheet files
 
 ▸ **addJSONToWorkbook**(book: *`Workbook`*, sheet_name: *`string`*, json: *`any`[]*, fields?: *`string`[]*): `void`
 
-*Defined in spreadsheets.ts:193*
+*Defined in [spreadsheets.ts:193](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L193)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ ___
 
 ▸ **convertJSONForOutput**T(jsons: *`T`[]*, keys: *`string`[]*, ignore?: *`string`[]*, boolean_keys?: *`string`[]*): `T`[]
 
-*Defined in spreadsheets.ts:129*
+*Defined in [spreadsheets.ts:129](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L129)*
 
 **Type parameters:**
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **jsonToCSV**(output_path: *`string`*, data: *`any`[]*, headers?: *`string`[]*): `Promise`<`Object`>
 
-*Defined in spreadsheets.ts:101*
+*Defined in [spreadsheets.ts:101](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L101)*
 
 **Parameters:**
 
@@ -93,7 +93,7 @@ ___
 
 ▸ **outputToExcel**(req: *[ExcelOutputRequest](../interfaces/_spreadsheets_.exceloutputrequest.md)*): `Promise`<`Object`>
 
-*Defined in spreadsheets.ts:157*
+*Defined in [spreadsheets.ts:157](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L157)*
 
 **Parameters:**
 
@@ -110,7 +110,7 @@ ___
 
 ▸ **parseFile**(filename: *`string`*, filePath: *`string`*, callback: *`function`*): `void`
 
-*Defined in spreadsheets.ts:43*
+*Defined in [spreadsheets.ts:43](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L43)*
 
 Takes a filename and file path of a CSV or Excel file and returns a json representation of the file.
 
@@ -133,7 +133,7 @@ ___
 
 ▸ **saveWorkbook**(workbook: *`Workbook`*, file_name: *`string`*, output_path: *`string`*, xlsx?: *`boolean`*, csv?: *`boolean`*): `Promise`<`Object`>
 
-*Defined in spreadsheets.ts:175*
+*Defined in [spreadsheets.ts:175](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L175)*
 
 **Parameters:**
 
@@ -154,7 +154,7 @@ ___
 
 ▸ **splitCSVFile**(filename: *`string`*, filepath: *`string`*, callback: *`Function`*): `void`
 
-*Defined in spreadsheets.ts:81*
+*Defined in [spreadsheets.ts:81](https://github.com/kelmore5/javascript-utilities/blob/c0347fb/lib/spreadsheets.ts#L81)*
 
 **Parameters:**
 
