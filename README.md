@@ -13,26 +13,26 @@ object.
 
 To give a quick synopsis:
 
-- [Arrays](doc/markdown/classes/_arrays_.md) has things like splitting an array into subsets, filtering out null values, sorting date arrays,
+- [Arrays](doc/markdown/classes/_arrays_.arraytools.md) has things like splitting an array into subsets, filtering out null values, sorting date arrays,
 and removing items via an input function.
 
-- [Dictionaries]((doc/markdown/classes/_dictionaries_.md)) is the largest library and contains functions including transforming an array into a blank
+- [Dictionaries]((doc/markdown/classes/_dictionaries_.dictionarytools.md)) is the largest library and contains functions including transforming an array into a blank
 dictionary, doing name replacements on keys in the dictionary, grabbing all data with specified keys from 
 a json array, and removing a list of json keys.
 
-- [Files](doc/markdown/classes/_files_.md) only has one (at the moment) function to create a file if one does not exist and return the full path.
+- [Files](doc/markdown/classes/_files_.filetools.md) only has one (at the moment) function to create a file if one does not exist and return the full path.
 
-- [Math](doc/markdown/classes/_maths_.md) also has one function to find the closest divosor between a number and a specific divisor.
+- [Math](doc/markdown/classes/_maths_.mathtools.md) also has one function to find the closest divosor between a number and a specific divisor.
 
-- [Promises](doc/markdown/classes/_promises_.md) has two functions: One to append a catch function to an array of promises and one to append
+- [Promises](doc/markdown/classes/_promises_.promisetools.md) has two functions: One to append a catch function to an array of promises and one to append
 a next function to an array of promises to resolve true on complete.
 
-- [Spreadsheets](doc/markdown/classes/_spreadsheets_.md) includes functions to split a CSV file into a smaller amount of rows, output JSON data to 
+- [Spreadsheets](doc/markdown/classes/_spreadsheets_.spreadsheettools.md) includes functions to split a CSV file into a smaller amount of rows, output JSON data to 
 Excel, and converting spreadsheet files to JSON.
 
-- [Strings](doc/markdown/classes/_strings_.md) has things like fuzzy searches within a string array and transforming strings from keys to titles.
+- [Strings](doc/markdown/classes/_strings_.stringtools.md) has things like fuzzy searches within a string array and transforming strings from keys to titles.
 
-- [Utilities](doc/markdown/classes/_utilities_.md) has a variety of functions, including removing HTML tags from an HTML page or element, creating
+- [Utilities](doc/markdown/classes/_utilities_.utilities.md) has a variety of functions, including removing HTML tags from an HTML page or element, creating
 a Levenshtein comparison, and initiating an HTTP request.
 
 
