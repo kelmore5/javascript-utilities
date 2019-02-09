@@ -1,8 +1,10 @@
-"use strict";
+'use strict';
 import * as similar from 'string-similarity';
 import {Set} from 'typescript-collections';
 import {arrays} from './arrays';
-import {Lookup} from "./dictionaries";
+import {Lookup} from './dictionaries';
+import {maths} from './maths';
+import {utils} from './utilities';
 
 /**
  * Javascript functions for strings
@@ -48,6 +50,18 @@ class StringTools {
         }
     }
 
+    public static random(length: number = 20): string {
+        let output: string = '';
+        while (output.length < length) {
+            const uppercase: boolean = utils.randomBoolean();
+            const random_char: string = String.fromCharCode(maths.randomInteger(65, 90));
+
+            output += uppercase ? random_char : random_char.toLowerCase();
+        }
+
+        return output;
+    }
+
     /**
      * Primarily used to de-normalize a string. Regularizes a string, where
      * regularize means replacing all the underscores with spaces and changing
@@ -68,7 +82,8 @@ class StringTools {
         ];
 
         const replacements: Lookup<string> = {
-            'Linkedin': 'LinkedIn'
+            'Linkedin': 'LinkedIn',
+            'Url': 'URL'
         };
 
         string = StringTools.toProperCase(string.replace(/_/g, ' '));
@@ -118,7 +133,7 @@ class StringTools {
      * @returns {string} The string with only ascii characters
      */
     static onlyAscii(string: string): string {
-        return string.replace(/[^\x00-\x7F]/g, "")
+        return string.replace(/[^\x00-\x7F]/g, '');
     }
 
     public static replaceAll(datum: string, search: Array<RegExp | string>,

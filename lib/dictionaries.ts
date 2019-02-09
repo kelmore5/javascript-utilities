@@ -1,11 +1,12 @@
-"use strict";
-import * as deepmerge from 'deepmerge';
+'use strict';
+// import * as deepmerge from 'deepmerge';
 
+const deepmerge = require('deepmerge');
 import {arrays} from './arrays';
 import {strings} from './strings';
 import {Set} from 'typescript-collections';
-import {vsprintf} from "sprintf-js";
-import * as Bookshelf from "bookshelf";
+import {vsprintf} from 'sprintf-js';
+import * as Bookshelf from 'bookshelf';
 
 /**
  * Tools for javascript dictionary objects
@@ -53,6 +54,7 @@ class DictionaryTools {
         return [new_json_list, disjoint];
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Takes an array of json objects and creates a dictionary tree from it based on the given key,
      * keeping any duplicate values it finds in an array
@@ -83,6 +85,7 @@ class DictionaryTools {
         return [new_results, no_key];
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Grabs all the data values within an array of json objects with given key
      *
@@ -101,6 +104,7 @@ class DictionaryTools {
         return results;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     static grabAllDataByKeyUnique(json_array: any[], key: string): any[] {
         const results = new Set();
         for (let i = 0; i < json_array.length; i++) {
@@ -112,6 +116,7 @@ class DictionaryTools {
         return results.toArray();
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Grabs all the json objects with the given key plus value
      *
@@ -131,6 +136,7 @@ class DictionaryTools {
         return results;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Grabs all the json objects within an array of objects with the given keys.
      *
@@ -159,6 +165,7 @@ class DictionaryTools {
         return results;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Grabs all the keys from the objects within an array of json objects (no duplicates)
      *
@@ -183,6 +190,7 @@ class DictionaryTools {
         return Object.keys(json).length === 0;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Normalizes the keys within json objects in an array of json objects.
      *
@@ -214,6 +222,7 @@ class DictionaryTools {
         });
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Regularizes the keys with the json objects of an array of json objects
      *
@@ -249,6 +258,7 @@ class DictionaryTools {
         });
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Takes a string array and creates a blank json object using the array data as keys
      *
@@ -265,6 +275,7 @@ class DictionaryTools {
         return json;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Finds the given json keys (keys_to_grab) within each json object in an array of json objects
      * (json_array) and replaces them with new key names (new_key_names)
@@ -282,6 +293,7 @@ class DictionaryTools {
         return json_array;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static convertBooleanKeys(json_array: any[], keys: string[]): any[] {
         json_array.forEach(json => {
             keys.forEach(key => {
@@ -299,6 +311,7 @@ class DictionaryTools {
     // using the dest_keys array as the keys to replace with using the src_keys array
     // to get keys from the src json item
     // If only null is set to true, will only set a value in dest if it does not exist
+    // noinspection JSUnusedGlobalSymbols
     public static replaceKeyValues(dest: any | any[], src: any | any[],
                                    dest_keys: string[], src_keys: string[],
                                    only_null = false, with_count = false): number | any {
@@ -332,14 +345,14 @@ class DictionaryTools {
             const src_is_array = Array.isArray(src);
             if (src_is_array && dest.length !== src.length) {
                 throw new Error('Tried to merge values from destination and source json arrays, ' +
-                    'but lengths were not equal. Must be equal to merge')
+                    'but lengths were not equal. Must be equal to merge');
             }
 
             dest.forEach((dest_item, idx) => mergeValues(dest_item, src_is_array ? src[idx] : src));
         } else {
             if (Array.isArray(src)) {
                 throw new Error('Destination was a single json item while src was a json array. ' +
-                    'Can not combine. Fix this and rer;un')
+                    'Can not combine. Fix this and rer;un');
             }
 
             mergeValues(dest, src);
@@ -358,7 +371,7 @@ class DictionaryTools {
      */
     static replaceJsonKeys(json: any, keys_to_grab: string[], new_key_names: string[]): any[] {
         if (keys_to_grab.length !== new_key_names.length) {
-            throw 'Key array lengths do not match';
+            throw new Error('Key array lengths do not match');
         }
 
         keys_to_grab.forEach(function (key: string, idx: number) {
@@ -375,6 +388,7 @@ class DictionaryTools {
         return json;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Adds an object to all json objects within a given json array
      * @param {any[]} json_array The json array
@@ -408,7 +422,7 @@ class DictionaryTools {
                     output.push(DictionaryTools.mapJsonObject(value));
                 });
                 new_json[key] = output;
-            } else if (typeof json[key] == 'object') {
+            } else if (typeof json[key] === 'object') {
                 new_json[key] = DictionaryTools.mapJsonObject(json[key]);
             } else {
                 new_json[key] = typeof json[key];
@@ -418,6 +432,7 @@ class DictionaryTools {
         return new_json;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * This will take an array of json objects, find the map of each
      * object, and return all the maps merged.
@@ -444,6 +459,7 @@ class DictionaryTools {
         return deepmerge.all(json_array);
     }
 
+    // noinspection JSUnusedGlobalSymbols
     static combineJsonAndModels(keys: string[], jsons?: any[], models?: Bookshelf.Model<any>[]) {
         const output: any = {};
         if (jsons) {
@@ -461,6 +477,7 @@ class DictionaryTools {
         return output;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     /**
      * Takes an array of json objects and regroups each json in the array by the
      * given grouping key and creates a new json output with the given regrouping names.
@@ -526,6 +543,7 @@ class DictionaryTools {
         return id_lookup;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static stringifyAtRoot(json_array: any[], ignore_num = false): any[] {
         json_array.forEach(json => {
             Object.keys(json).forEach(key => {
@@ -563,6 +581,7 @@ class DictionaryTools {
         return json;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static reduceList(json_array: any[], keys: string[]): any {
         json_array.map(json =>
             DictionaryTools.reduce(json, keys))
@@ -570,6 +589,7 @@ class DictionaryTools {
         return json_array;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static createLookup<T extends any>(json_array: T[], lookup_key: string,
                                               value_keys: string[] = [], output: Lookup<T> = {}): Lookup<T> {
         json_array.forEach(json => {
@@ -589,8 +609,9 @@ class DictionaryTools {
         return output;
     }
 
-    public static createLookupArray(json_array: any[], lookup_key: string, value_keys: string[] = []): LookupArray {
-        const lookup: LookupArray = {};
+    // noinspection JSUnusedGlobalSymbols
+    public static createLookupArray<T extends any>(json_array: T[], lookup_key: string, value_keys: string[] = []): LookupArray<T> {
+        const lookup: LookupArray<T> = {};
         json_array.forEach(json => {
             const key = json[lookup_key];
             const array = lookup[key] = lookup[key] || [];
@@ -608,6 +629,7 @@ class DictionaryTools {
         return lookup;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static flattenAtRoot(json: any): any[] {
         return Object.keys(json).map((key) => json[key]);
     }
@@ -628,9 +650,9 @@ class DictionaryTools {
     }
 
     public static getAllKeys(json_array: any[]): string[] {
-        let keys = new Set<string>();
+        const keys = new Set<string>();
         json_array.forEach(json => {
-            Object.keys(json).forEach(key => keys.add(key))
+            Object.keys(json).forEach(key => keys.add(key));
         });
         return keys.toArray();
     }
@@ -653,8 +675,8 @@ class DictionaryTools {
         stat_keys.forEach(key => {
             const stat = stats[key];
             const new_stat = DictionaryTools.getVariableStat(stat);
-            let inner_stat: { inner_type?: JSONStatType, inner_size?: number } = {};
-            let object_types: { object_types?: JSONStats } = {};
+            const inner_stat: { inner_type?: JSONStatType, inner_size?: number } = {};
+            const object_types: { object_types?: JSONStats } = {};
 
             if (stat.object_types) {
                 object_types.object_types = stat.object_types;
@@ -685,7 +707,7 @@ class DictionaryTools {
         if (typeof datum === 'string') {
             // Check if type is actually integer or float
             const temp = datum.includes('.') ?
-                parseFloat(datum) : parseInt(datum);
+                parseFloat(datum) : parseInt(datum, 10);
             if (!isNaN(temp)) {
                 datum = temp;
                 size = Math.abs(datum);
@@ -700,7 +722,7 @@ class DictionaryTools {
         }
 
         let type: ObjectType = <ObjectType> datum_type;
-        let inner_stats: { inner_types?: JSONTypeLookup, inner_sizes?: JSONTypeLookup } = {};
+        const inner_stats: { inner_types?: JSONTypeLookup, inner_sizes?: JSONTypeLookup } = {};
         if (type === 'string') {
             size = datum.length;
 
@@ -732,6 +754,7 @@ class DictionaryTools {
         return json;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static mergeWhereEmpty(dest: any, src: any) {
         Object.keys(src).forEach(key => {
             if (dest[key] === null || dest[key] === undefined) {
@@ -750,11 +773,13 @@ class DictionaryTools {
         return json_a;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static removeKeysArray(json_array: any[], keys: string[]) {
         json_array.forEach(json => DictionaryTools.removeKeys(json, keys));
         return json_array;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static countKeysWithValues(json: any): number {
         let count = 0;
         Object.keys(json).forEach(key => {
@@ -764,6 +789,7 @@ class DictionaryTools {
         return count;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static removeWhereNulls<T extends any>(jsons: T[], all_empty_values = false): T[] {
         return jsons.map(json => DictionaryTools.removeWhereNull(json, all_empty_values));
     }
@@ -778,6 +804,7 @@ class DictionaryTools {
         }
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static removeWhereKeysNull<T extends any>(jsons: T[], keys: string[]): T[] {
         const removeFunc = (json: T) => this.checkIfNull(json, keys);
         return arrays.removeInner(jsons, removeFunc);
@@ -796,10 +823,42 @@ class DictionaryTools {
         return json;
     }
 
+    // noinspection JSUnusedGlobalSymbols
     public static convertStatsToInterface(stats: JSONStats, name = 'Impl'): string {
         let output = DictionaryTools.convertStatsToInterfaceHelper(stats, name).reverse();
         output = [output[0]].concat(output.slice(1).sort());
         return output.join('\n') + '\n';
+    }
+
+    // noinspection JSUnusedGlobalSymbols
+    public static combineJsonInner<T extends any>(json_a: T, json_b: T): T {
+        // console.log(json_a);
+        // console.log(json_b);
+        Object.keys(json_b).forEach(key => json_a[key] = json_b[key]);
+        return json_a;
+    }
+
+    // noinspection JSUnusedGlobalSymbols
+    public static getJsonKeys<T extends any>(json: T, keys: string[]): T {
+        const new_json: any = {};
+        keys.forEach(key => {
+            new_json[key] = json[key];
+        });
+        return new_json;
+    }
+
+    // noinspection JSUnusedGlobalSymbols
+    public static combineJson<T extends any>(json_a: T, json_b: T): T {
+        return Object.assign(json_a, json_b);
+    };
+
+
+    // noinspection JSUnusedGlobalSymbols
+    public static intersectJson(json_a: any, json_b: any) {
+        const output: any = {};
+        Object.keys(json_a).forEach(key =>
+            key in json_b ? output[key] = json_b[key] : 0);
+        return output;
     }
 
     private static convertStatsToInterfaceHelper(stats: JSONStats, name: string, outputs: string[] = []): string[] {
@@ -821,7 +880,7 @@ class DictionaryTools {
             let type: string = json.type;
 
             if (type === 'object') {
-                //TODO: Move space removal to string tools
+                // TODO: Move space removal to string tools
                 type = strings.regularizeString(key).replace(/ /g, '') + 'Res';
                 DictionaryTools.convertStatsToInterfaceHelper(json.object_types, type, outputs);
             } else {
@@ -901,7 +960,7 @@ class DictionaryTools {
         json_array.forEach(json => {
             Object.keys(json).forEach(key => {
                 const stat = stats[key] = stats[key] || {types: {}, sizes: {}};
-                let datum = json[key];
+                const datum = json[key];
 
                 if (datum) {
                     const new_stat = DictionaryTools.getVariableStats(datum);
@@ -932,10 +991,10 @@ class DictionaryTools {
                             current_types[inner_key] = (current_types[inner_key] || 0) + inner_types[inner_key];
                         });
 
-                        Object.keys(inner_sizes).forEach(key => {
-                            const current_size = current_sizes[key] || 0;
-                            const size = inner_sizes[key];
-                            current_sizes[key] = size > current_size ? size : current_size;
+                        Object.keys(inner_sizes).forEach(inner_key => {
+                            const current_size_inner = current_sizes[inner_key] || 0;
+                            const size = inner_sizes[inner_key];
+                            current_sizes[inner_key] = size > current_size_inner ? size : current_size_inner;
                         });
                     }
                 } else {
@@ -954,6 +1013,7 @@ class DictionaryTools {
         return stats;
     }
 
+    // noinspection JSUnusedLocalSymbols
     private static mergeJSONStats(stat_a: JSONStats, stat_b: JSONStats) {
         Object.keys(stat_a).forEach(key => {
             const compare = stat_b[key];
@@ -1014,7 +1074,7 @@ export interface JSONStat {
 
 export type JSONStatType = 'int' | 'double' | 'string' | 'boolean' | 'date' | 'object' | 'array';
 
-export interface LookupArray extends Lookup<any[]> {
+export interface LookupArray<T extends any> extends Lookup<T[]> {
 }
 
 export interface Lookup<T> {
